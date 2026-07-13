@@ -1,60 +1,69 @@
-\# Spam Email Classifier
+# 📧 Spam Email Classifier
 
+A Machine Learning web application that classifies email messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing (NLP).
 
+---
 
-A machine learning project that classifies emails as Spam or Ham using Natural Language Processing (NLP).
+## Features
 
+- Spam Detection
+- TF-IDF Vectorization
+- Machine Learning Classification
+- Interactive Streamlit Web App
 
+---
 
-\## Features
+## Technologies Used
 
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
 
+---
 
-\- Email text preprocessing
+## Project Structure
 
-\- TF-IDF Vectorization
+```
+Spam-Email-Classifier
+│
+├── app.py
+├── Spam_classifier.pkl
+├── tfidf_vectorizer.pkl
+├── Spam_detection.ipynb
+├── requirements.txt
+├── README.md
+```
 
-\- Machine Learning Spam Detection
+---
 
-\- Trained classifier saved as a `.pkl` model
+## How to Run
 
+Install the dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
-\## Files
+Run the application
 
+```bash
+streamlit run app.py
+```
 
+---
 
-\- Spam\_detection.ipynb – Training notebook
+## Model
 
-\- Spam\_classifier.pkl – Trained model
+The model was trained using machine learning and TF-IDF vectorization to classify email messages into:
 
-\- tfidf\_vectorizer.pkl – TF-IDF vectorizer
+- Spam
+- Ham (Not Spam)
 
-\- email.csv – Dataset
+---
 
-\- About.txt – Project description
+## Author
 
-
-
-\## Technologies
-
-
-
-\- Python
-
-\- Scikit-learn
-
-\- Pandas
-
-\- NumPy
-
-\- Jupyter Notebook
-
-
-
-\## Author
-
-
-
-Judson
-
+**Judson**
